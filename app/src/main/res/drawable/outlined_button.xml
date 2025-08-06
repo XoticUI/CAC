@@ -1,0 +1,15 @@
+<!-- res/drawable/outlined_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Transparent background -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Rounded corners -->
+    <corners android:radius="8dp" />
+
+    <!-- Gray border -->
+    <stroke
+        android:width="3dp"
+        android:color="#888888" /> <!-- You can change to #CCCCCC or #B0B0B0 for lighter gray -->
+</shape>
